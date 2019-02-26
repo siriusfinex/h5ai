@@ -22,7 +22,7 @@
     "resources": {
         "scripts": [],
         "styles": [
-            "//fonts.googleapis.com/css?family=Ubuntu:300,400,700%7CUbuntu+Mono:400,700"
+            "//fonts.geekzu.org/css?family=Ubuntu:300,400,700%7CUbuntu+Mono:400,700"
         ]
     },
 
@@ -71,7 +71,7 @@
         "hideParentFolder": false,
         "maxIconSize": 40,
         "modes": ["details", "grid", "icons"],
-        "modeToggle": false,
+        "modeToggle": true,
         "setParentFolderLabels": true,
         "sizes": [20, 40, 60, 80, 100, 140, 180, 220, 260, 300],
         "theme": "comity",
@@ -197,7 +197,7 @@
     */
     "l10n": {
         "enabled": true,
-        "lang": "en",
+        "lang": "zh-cn",
         "useBrowserLang": true
     },
 
@@ -304,7 +304,7 @@
     - ignorecase: boolean, ignore case
     */
     "search": {
-        "enabled": false,
+        "enabled": true,
         "advanced": true,
         "debounceTime": 300,
         "ignorecase": true
@@ -335,7 +335,7 @@
     */
     "sort": {
         "enabled": true,
-        "column": 0,
+        "column": 1,
         "reverse": false,
         "ignorecase": true,
         "natural": true,
@@ -355,7 +355,7 @@
     - chunksize: int, number of thumbs per request
     */
     "thumbnails": {
-        "enabled": true,
+        "enabled": false,
         "img": ["img-bmp", "img-gif", "img-ico", "img-jpg", "img-png"],
         "mov": ["vid-avi", "vid-flv", "vid-mkv", "vid-mov", "vid-mp4", "vid-mpg", "vid-webm"],
         "doc": ["x-pdf", "x-ps"],
